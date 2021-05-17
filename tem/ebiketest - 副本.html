@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>搜索布局2 - 光年(Light Year Admin)后台管理系统模板</title>
+<link rel="icon" href="favicon.ico" type="image/ico">
+<meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">
+<meta name="author" content="yinqi">
+<link href="http://lyear.itshubao.com/iframe/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://example.itshubao.com/demo/css/materialdesignicons.min.css" rel="stylesheet">
+<!--日期选择插件-->
+<link rel="stylesheet" href="http://lyear.itshubao.com/iframe/js/bootstrap-datepicker/bootstrap-datepicker3.min.css">
+<link href="http://lyear.itshubao.com/iframe/css/style.min.css" rel="stylesheet">
+</head>
+  
+<body>
+<div class="container-fluid">
+  
+  <div class="row">
+    
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header"><h4>搜索布局2</h4></div>
+        <!--默认使用-->
+        <div class="card-toolbar clearfix">
+          <form class="form-inline" action="#!" method="post">
+            <div class="form-group m-b-5">
+              <input class="form-control" type="email" name="keywords" placeholder="请输入邮箱..">
+            </div>
+            <div class="form-group m-b-5">
+              <input class="form-control" type="password" name="usernbame" placeholder="请输入用户名..">
+            </div>
+            <div class="form-group m-b-5">
+              <input class="form-control" type="phone" name="phone" placeholder="请输入手机号..">
+            </div>
+            <a class="btn btn-default m-b-5" href="#!"><i class="mdi mdi-magnify"></i> 搜索</a>
+            <a class="btn btn-primary m-b-5" href="#!"><i class="mdi mdi-plus"></i> 新增</a>
+            <a class="btn btn-success m-b-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
+            <a class="btn btn-warning m-b-5" href="#!"><i class="mdi mdi-block-helper"></i> 禁用</a>
+            <a class="btn btn-danger m-b-5" href="#!"><i class="mdi mdi-window-close"></i> 删除</a>
+            <button class="btn btn-secondary m-b-5" type="reset"><i class="mdi mdi-delete"></i> 清空数据</button>
+          </form>
+        </div>
+        <!--更多内容-->
+        <div class="card-toolbar clearfix">
+          <div class="form-inline">
+            <div class="form-group m-b-5">
+              <input class="form-control" type="email" name="keywords" placeholder="请输入邮箱..">
+            </div>
+			<div class="form-group m-b-5">
+              <div class="input-group" data-provide = 'datepicker'>
+                <input class="form-control" type="text" name="start_time" value="" placeholder="开始时间">
+                <span class="input-group-addon no-border-lr">~</span>
+                <input class="form-control" type="text" name="end_time" value="" placeholder="结束时间">
+              </div>
+			</div>
+            <div class="form-group m-b-5">
+              <input class="form-control" type="password" name="usernbame" placeholder="请输入手机号..">
+            </div>
+			<div class="form-group m-b-5">
+              <select name="type" class="form-control">
+                <option value="1">小说</option>
+                <option value="2">古籍</option>
+                <option value="3">专辑</option>
+                <option value="4">自传</option>
+              </select>
+			</div>
+            <a class="btn btn-default m-b-5" href="#!"><i class="mdi mdi-magnify"></i> 搜索</a>
+            <a class="btn btn-primary m-b-5" href="#!"><i class="mdi mdi-plus"></i> 新增</a>
+            <a class="btn btn-success m-b-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
+            <a class="btn btn-warning m-b-5" href="#!"><i class="mdi mdi-block-helper"></i> 禁用</a>
+            <a class="btn btn-danger m-b-5" href="#!"><i class="mdi mdi-window-close"></i> 删除</a>
+            <button class="btn btn-secondary m-b-5" type="reset"><i class="mdi mdi-delete"></i> 清空数据</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>第一行放在了form元素中，第二行放在div元素里面。开始时间和结束时间选中一个时间后往前选，可以选择一个时间段。</p>
+        </div>
+      </div>
+    </div>
+	
+  </div>
+  
+</div>
+<script type="text/javascript" src="http://lyear.itshubao.com/iframe/js/jquery.min.js"></script>
+<!--日期选择插件-->
+<script type="text/javascript" src="http://lyear.itshubao.com/iframe/js/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="http://lyear.itshubao.com/iframe/js/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+</body>
+</html>
